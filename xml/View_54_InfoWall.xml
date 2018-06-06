@@ -186,6 +186,7 @@
 				<font>font10</font>
 				<align>left</align>
 				<aligny>center</aligny>
+				<autoscroll delay="3000" time="1000" repeat="6000"></autoscroll>
 				<label>$INFO[ListItem.Label]</label>
 				<visible>Window.IsActive(videos)</visible>
 			</control>
@@ -197,6 +198,7 @@
 				<font>font111</font>
 				<align>left</align>
 				<aligny>top</aligny>
+				<autoscroll delay="3000" time="1000" repeat="6000"></autoscroll>
 				<label>$INFO[ListItem.Artist]</label>
 				<visible>Window.IsActive(videos)</visible>
 			</control>
