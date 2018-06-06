@@ -183,8 +183,8 @@
 				<top>202</top>
 				<width>262</width>
 				<height>80</height>
-				<font>font12</font>
-				<align>center</align>
+				<font>font10</font>
+				<align>left</align>
 				<aligny>center</aligny>
 				<label>$INFO[ListItem.Label]</label>
 				<visible>Window.IsActive(videos)</visible>
