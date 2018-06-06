@@ -9,6 +9,18 @@
 			<style>lighten</style>
 		</font>
 		<font>
+			<name>font11</name>
+			<filename>NotoSans-Regular.ttf</filename>
+			<size>18</size>
+			<style>lighten</style>
+		</font>
+		<font>
+			<name>font111</name>
+			<filename>NotoSans-Bold.ttf</filename>
+			<size>20</size>
+			<style>lighten</style>
+		</font>
+		<font>
 			<name>font12</name>
 			<filename>NotoSans-Regular.ttf</filename>
 			<size>25</size>

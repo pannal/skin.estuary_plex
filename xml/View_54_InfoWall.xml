@@ -129,7 +129,7 @@
 			<control type="image">
 				<top>10</top>
 				<width>316</width>
-				<height>288</height>
+				<height>348</height>
 				<texture>dialogs/dialog-bg-nobo.png</texture>
 				<bordertexture border="21">overlays/shadow.png</bordertexture>
 				<bordersize>20</bordersize>
@@ -138,7 +138,7 @@
 				<top>6</top>
 				<left>-4</left>
 				<width>324</width>
-				<height>296</height>
+				<height>356</height>
 				<texture colordiffuse="button_focus">colors/grey.png</texture>
 				<bordertexture border="21">overlays/shadow.png</bordertexture>
 				<bordersize>20</bordersize>
@@ -187,6 +187,28 @@
 				<align>center</align>
 				<aligny>center</aligny>
 				<label>$INFO[ListItem.Label]</label>
+				<visible>Window.IsActive(videos)</visible>
+			</control>
+			<control type="textbox">
+				<left>28</left>
+				<top>282</top>
+				<width>262</width>
+				<height>24</height>
+				<font>font111</font>
+				<align>left</align>
+				<aligny>top</aligny>
+				<label>$INFO[ListItem.Artist]</label>
+				<visible>Window.IsActive(videos)</visible>
+			</control>
+			<control type="textbox">
+				<left>28</left>
+				<top>307</top>
+				<width>262</width>
+				<height>26</height>
+				<font>font11</font>
+				<align>left</align>
+				<aligny>top</aligny>
+				<label>$INFO[ListItem.DateAdded]</label>
 				<visible>Window.IsActive(videos)</visible>
 			</control>
 			<control type="group">
@@ -400,7 +422,7 @@
 						</include>
 					</control>
 				</focusedlayout>
-				<itemlayout height="300" width="300" condition="Container.Content(episodes) | Container.Content(videos) | Container.Content(musicvideos)">
+				<itemlayout height="350" width="300" condition="Container.Content(episodes) | Container.Content(videos) | Container.Content(musicvideos)">
 					<control type="group">
 						<left>64</left>
 						<top>110</top>
@@ -410,7 +432,7 @@
 						</include>
 					</control>
 				</itemlayout>
-				<focusedlayout height="300" width="300" condition="Container.Content(episodes) | Container.Content(videos) | Container.Content(musicvideos)">
+				<focusedlayout height="350" width="300" condition="Container.Content(episodes) | Container.Content(videos) | Container.Content(musicvideos)">
 					<control type="group">
 						<depth>DepthContentPopout</depth>
 						<animation effect="zoom" start="100" end="110" time="200" tween="sine" easing="inout" center="220,250">Focus</animation>
