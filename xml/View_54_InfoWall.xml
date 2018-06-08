@@ -129,7 +129,7 @@
 			<control type="image">
 				<top>10</top>
 				<width>316</width>
-				<height>348</height>
+				<height>358</height>
 				<texture>dialogs/dialog-bg-nobo.png</texture>
 				<bordertexture border="21">overlays/shadow.png</bordertexture>
 				<bordersize>20</bordersize>
@@ -138,7 +138,7 @@
 				<top>6</top>
 				<left>-4</left>
 				<width>324</width>
-				<height>356</height>
+				<height>366</height>
 				<texture colordiffuse="button_focus">colors/grey.png</texture>
 				<bordertexture border="21">overlays/shadow.png</bordertexture>
 				<bordersize>20</bordersize>
@@ -180,19 +180,19 @@
 			</control>
 			<control type="textbox">
 				<left>28</left>
-				<top>202</top>
+				<top>212</top>
 				<width>262</width>
 				<height>80</height>
 				<font>font10</font>
 				<align>left</align>
-				<aligny>center</aligny>
+				<aligny>top</aligny>
 				<autoscroll delay="3000" time="1000" repeat="6000"></autoscroll>
 				<label>$INFO[ListItem.Label]</label>
 				<visible>Window.IsActive(videos)</visible>
 			</control>
 			<control type="textbox">
 				<left>28</left>
-				<top>282</top>
+				<top>292</top>
 				<width>262</width>
 				<height>28</height>
 				<font>font111</font>
@@ -204,7 +204,7 @@
 			</control>
 			<control type="textbox">
 				<left>28</left>
-				<top>307</top>
+				<top>317</top>
 				<width>262</width>
 				<height>26</height>
 				<font>font11</font>
@@ -238,7 +238,7 @@
 			</control>
 			<control type="progress">
 				<left>20</left>
-				<top>258</top>
+				<top>254</top>
 				<width>276</width>
 				<height>1</height>
 				<texturebg></texturebg>
