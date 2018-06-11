@@ -210,7 +210,7 @@
 				<font>font11</font>
 				<align>left</align>
 				<aligny>top</aligny>
-				<label>$INFO[ListItem.DateAdded]</label>
+				<label>$INFO[ListItem.Property(PublishedSince)]</label>
 				<visible>Window.IsActive(videos)</visible>
 			</control>
 			<control type="group">
