@@ -424,7 +424,7 @@
 						</include>
 					</control>
 				</focusedlayout>
-				<itemlayout height="350" width="300" condition="Container.Content(episodes) | Container.Content(videos) | Container.Content(musicvideos)">
+				<itemlayout height="362" width="300" condition="Container.Content(episodes) | Container.Content(videos) | Container.Content(musicvideos)">
 					<control type="group">
 						<left>64</left>
 						<top>110</top>
@@ -434,7 +434,7 @@
 						</include>
 					</control>
 				</itemlayout>
-				<focusedlayout height="350" width="300" condition="Container.Content(episodes) | Container.Content(videos) | Container.Content(musicvideos)">
+				<focusedlayout height="362" width="300" condition="Container.Content(episodes) | Container.Content(videos) | Container.Content(musicvideos)">
 					<control type="group">
 						<depth>DepthContentPopout</depth>
 						<animation effect="zoom" start="100" end="110" time="200" tween="sine" easing="inout" center="220,250">Focus</animation>
