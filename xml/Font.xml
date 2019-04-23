@@ -9,18 +9,6 @@
 			<style>lighten</style>
 		</font>
 		<font>
-			<name>font11</name>
-			<filename>NotoSans-Regular.ttf</filename>
-			<size>18</size>
-			<style>lighten</style>
-		</font>
-		<font>
-			<name>font111</name>
-			<filename>NotoSans-Bold.ttf</filename>
-			<size>20</size>
-			<style>lighten</style>
-		</font>
-		<font>
 			<name>font12</name>
 			<filename>NotoSans-Regular.ttf</filename>
 			<size>25</size>
@@ -134,9 +122,9 @@
 			<size>120</size>
 		</font>
 		<font>
-			<name>Mono30</name>
+			<name>Mono26</name>
 			<filename>NotoMono-Regular.ttf</filename>
-			<size>30</size>
+			<size>26</size>
 		</font>
 	</fontset>
 	<fontset id="Arial" idloc="31053">
@@ -249,9 +237,9 @@
 			<style>bold</style>
 		</font>
 		<font>
-			<name>Mono30</name>
+			<name>Mono26</name>
 			<filename>arial.ttf</filename>
-			<size>30</size>
+			<size>26</size>
 		</font>
 	</fontset>
 </fonts>
